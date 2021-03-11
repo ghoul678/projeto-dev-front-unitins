@@ -1,0 +1,45 @@
+body {
+    font-family: 'Crimson Text', 'Times New Roman', serif;
+    background-color: #F2FFFC;
+}
+
+main h1 {
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    padding: 24px;
+}
+
+blockquote {
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    margin: 0;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 720px;
+    margin: auto;
+}
+
+aside {
+    text-align: center;
+}
