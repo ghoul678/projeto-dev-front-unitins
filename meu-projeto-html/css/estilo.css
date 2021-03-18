@@ -3,10 +3,11 @@ body {
     background-color: #F2FFFC;
 }
 
-main h1 {
+.titulo-principal {
     background-color: #851944;
     color: #FFF;
     text-align: center;
+    border-bottom: 10px solid black;
 }
 
 h1,
@@ -16,6 +17,8 @@ h2 {
 
 p {
     text-align: justify;
+    line-height: 1.5;
+    margin: 0;
 }
 
 a {
@@ -42,4 +45,28 @@ div {
 
 aside {
     text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.github {
+    background-image: url("../img/github.png");
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+}
+
+.linkedin {
+    background-image: url("../img/linkedin.png");
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: gray;
+    text-indent: -9999px;
 }
