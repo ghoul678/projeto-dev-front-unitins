@@ -33,6 +33,14 @@ p {
     margin: 20px 40px;
 }
 
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
 .navegacao-site {
     text-align: center;
     background-color: #3C1D3D;
@@ -42,10 +50,25 @@ p {
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 main a {
     color: #851944;
+}
+
+
+/* padding-bottom colocado para o footer não sobrepor o final do texto */
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }
 
 .navegacao-site a {
@@ -70,6 +93,15 @@ main a {
     margin-bottom: 25px;
 }
 
+.minha-foto,
+.navegacao-site {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
 strong {
     font-weight: bold;
 }
@@ -80,6 +112,7 @@ em {
 
 .subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
@@ -122,4 +155,24 @@ nav a {
 
 .linkedin {
     background-image: url(../img/linkedin.png);
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    right: 0;
+}
+
+aside {
+    position: relative;
+    top: 300px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
